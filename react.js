@@ -13,4 +13,9 @@ module.exports = {
 		// 'react/react-in-jsx-scope': 'off',
 		'react/no-unescaped-entities': 0,
 	},
+	settings: {
+		react: {
+			version: 'detect',
+		},
+	},
 }
