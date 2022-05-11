@@ -1,6 +1,6 @@
 module.exports = {
 	extends: [
-		'./rules/index.js',
+		'./index.js',
 
 		/* 리액트 관련 설정 */
 		'plugin:react/recommended',
