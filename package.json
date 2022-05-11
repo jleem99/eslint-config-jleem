@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-jleem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"publish:major": "./scripts/publish.sh major",
+		"publish:minor": "./scripts/publish.sh minor",
+		"publish:patch": "./scripts/publish.sh patch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jleem99/eslint-config-jleem.git"
+  },
+  "author": "JongHan Leem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jleem99/eslint-config-jleem/issues"
+  },
+  "homepage": "https://github.com/jleem99/eslint-config-jleem#readme"
+}
