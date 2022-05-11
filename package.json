@@ -21,6 +21,7 @@
   "homepage": "https://github.com/jleem99/eslint-config-jleem#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.8.0",
     "eslint": "^8.10.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-typescript": "^2.5.0",
@@ -34,6 +35,7 @@
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.8.0",
     "eslint": "^8.10.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-typescript": "^2.5.0",
