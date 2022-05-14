@@ -54,16 +54,16 @@ module.exports = {
 					{ ignoreProperties: true, ignoreParameters: true },
 				],
 
-				'@typescript-eslint/no-unused-vars': 'off',
-				// '@typescript-eslint/no-unused-vars': [
-				// 	'error',
-				// 	{
-				// 		args: 'after-used',
-				// 		argsIgnorePattern: '^_',
-				// 		ignoreRestSiblings: true,
-				// 		varsIgnorePattern: '^ignored',
-				// 	},
-				// ],
+				'no-unused-vars': 'off',
+				'@typescript-eslint/no-unused-vars': [
+					'error',
+					{
+						args: 'after-used',
+						argsIgnorePattern: '^_',
+						ignoreRestSiblings: true,
+						varsIgnorePattern: '^ignored',
+					},
+				],
 
 				/* Fix enum's no-shadow false positive */
 				'no-shadow': 0,
