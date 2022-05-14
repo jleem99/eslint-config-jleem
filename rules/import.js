@@ -1,14 +1,10 @@
 module.exports = {
 	root: true,
-	extends: [
-		/* ES6 import 린팅 관련 설정 */
-		'plugin:import/recommended',
-		'plugin:import/typescript',
-	],
+	extends: ['plugin:import/recommended', 'plugin:import/typescript'],
 	plugins: ['unused-imports'],
 	rules: {
 		/* eslint-plugin-unused-imports 규칙 (for auto-fixing unused imports) */
-		'unused-imports/no-unused-imports': 1,
+		'unused-imports/no-unused-imports': 'warn',
 		'unused-imports/no-unused-vars': [
 			'warn',
 			{
@@ -19,7 +15,7 @@ module.exports = {
 			},
 		],
 
-		'import/no-named-as-default-member': 0,
+		'import/no-named-as-default-member': 'off',
 
 		/* https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/order.md 참고 */
 		'import/order': [
@@ -48,7 +44,7 @@ module.exports = {
 		],
 
 		'import/no-useless-path-segments': ['error', { noUselessIndex: true }],
-		'sort-imports': [1, { ignoreDeclarationSort: true }],
+		'sort-imports': ['warn', { ignoreDeclarationSort: true }],
 	},
 	settings: {
 		'import/resolver': { typescript: {} },

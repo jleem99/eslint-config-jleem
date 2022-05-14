@@ -25,7 +25,7 @@ module.exports = {
 		'deprecation/deprecation': 'warn',
 
 		/* other rules */
-		'no-void': 0,
+		'no-void': 'off',
 		'yoda': ['warn', 'never', { exceptRange: true }],
 	},
 	overrides: [
@@ -42,13 +42,13 @@ module.exports = {
 			rules: {
 				'no-undef': 'off',
 
-				'@typescript-eslint/explicit-module-boundary-types': 0,
-				'@typescript-eslint/no-explicit-any': 0,
-				'@typescript-eslint/unbound-method': 0, // auto-bind fixes this issue
-				'@typescript-eslint/require-await': 0,
-				'@typescript-eslint/no-empty-function': 1,
-				'@typescript-eslint/no-empty-interface': 1,
-				'@typescript-eslint/no-non-null-assertion': 0, // Non-Null이 확실할 때만 사용
+				'@typescript-eslint/explicit-module-boundary-types': 'off',
+				'@typescript-eslint/no-explicit-any': 'off',
+				'@typescript-eslint/unbound-method': 'off', // auto-bind fixes this issue
+				'@typescript-eslint/require-await': 'off',
+				'@typescript-eslint/no-empty-function': 'warn',
+				'@typescript-eslint/no-empty-interface': 'warn',
+				'@typescript-eslint/no-non-null-assertion': 'off', // Non-Null이 확실할 때만 사용
 				'@typescript-eslint/no-inferrable-types': [
 					'warn',
 					{ ignoreProperties: true, ignoreParameters: true },
@@ -66,8 +66,8 @@ module.exports = {
 				],
 
 				/* Fix enum's no-shadow false positive */
-				'no-shadow': 0,
-				'@typescript-eslint/no-shadow': 2,
+				'no-shadow': 'off',
+				'@typescript-eslint/no-shadow': 'error',
 
 				'@typescript-eslint/no-misused-promises': [
 					'warn',
