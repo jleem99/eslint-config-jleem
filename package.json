@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/jleem99/eslint-config-jleem#readme",
   "devDependencies": {
+    "@react-native-community/eslint-config": "^3.0.2",
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
     "eslint": "^8.15.0",
@@ -30,10 +31,12 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.5.0",
+    "eslint-plugin-react-native": "^4.0.0",
     "eslint-plugin-unused-imports": "^2.0.0",
     "typescript": "^4.6.4"
   },
   "peerDependencies": {
+    "@react-native-community/eslint-config": "^3.0.2",
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
     "eslint": "^8.15.0",
@@ -44,6 +47,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.5.0",
+    "eslint-plugin-react-native": "^4.0.0",
     "eslint-plugin-unused-imports": "^2.0.0",
     "typescript": "^4.6.4"
   }
