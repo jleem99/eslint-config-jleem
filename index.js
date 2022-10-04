@@ -37,7 +37,6 @@ module.exports = {
 				ecmaVersion: 13,
 				sourceType: 'module',
 				project: tsConfig,
-				tsconfigRootDir: __dirname,
 			},
 			rules: {
 				'no-undef': 'off',
