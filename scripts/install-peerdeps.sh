@@ -22,7 +22,7 @@ prompt_install_peer_deps() {
 # Install peer dependencies from the package.json file.
 # ------------------------------------------------------------
 install_peer_deps() {
-    npx install-peerdeps --dev --only-peers eslint-config-jleem
+    npx install-peerdeps --dev --only-peers --extra-args "--force" eslint-config-jleem
     return 0
 }
 
