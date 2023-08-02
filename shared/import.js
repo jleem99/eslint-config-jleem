@@ -1,7 +1,12 @@
 module.exports = {
-	root: true,
-	extends: ['plugin:import/recommended', 'plugin:import/typescript'],
+	extends: ['plugin:import/recommended'],
 	plugins: ['unused-imports'],
+	overrides: [
+		{
+			files: ['**/*.ts?(x)'],
+			extends: ['plugin:import/typescript'],
+		},
+	],
 	rules: {
 		/* eslint-plugin-unused-imports 규칙 (for auto-fixing unused imports) */
 		'unused-imports/no-unused-imports': 'warn',

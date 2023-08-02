@@ -5,6 +5,9 @@ module.exports = {
 		'plugin:react/jsx-runtime', // React 17의 JSX Transformation 사용
 		'plugin:react-hooks/recommended',
 	],
+	parserOptions: {
+		ecmaFeatures: { jsx: true },
+	},
 	rules: {
 		'react/jsx-uses-vars': 'error',
 		// 'react/jsx-uses-react': 'off',
