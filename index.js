@@ -7,7 +7,7 @@ module.exports = {
 		'./shared/import.js',
 	],
 	// plugins: ['deprecation'],
-	ignorePatterns: ['*.js', '*.jsx'],
+	// ignorePatterns: ['*.js', '*.jsx'],
 	rules: {
 		/** Warn deprecated code usage */
 		// 'deprecation/deprecation': 'warn',
