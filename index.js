@@ -3,10 +3,11 @@ module.exports = {
 	extends: [
 		'eslint:recommended',
 		'./shared/typescript.js',
+		"plugin:tailwindcss/recommended",
 		'plugin:prettier/recommended', // prettier integration 설정
 		'./shared/import.js',
 	],
-	// plugins: ['deprecation'],
+	plugins: [/* 'deprecation' */],
 	// ignorePatterns: ['*.js', '*.jsx'],
 	rules: {
 		/** Warn deprecated code usage */
