@@ -6,11 +6,11 @@ module.exports = {
 		'plugin:prettier/recommended', // prettier integration 설정
 		'./shared/import.js',
 	],
-	plugins: ['deprecation'],
+	// plugins: ['deprecation'],
 	ignorePatterns: ['*.js', '*.jsx'],
 	rules: {
 		/** Warn deprecated code usage */
-		'deprecation/deprecation': 'warn',
+		// 'deprecation/deprecation': 'warn',
 
 		/* other rules */
 		'no-void': 'off',
