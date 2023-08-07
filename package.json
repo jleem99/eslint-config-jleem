@@ -7,8 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "publish:major": "./scripts/publish.sh major",
     "publish:minor": "./scripts/publish.sh minor",
-    "publish:patch": "./scripts/publish.sh patch",
-    "postinstall": "./scripts/install-peerdeps.sh"
+    "publish:patch": "./scripts/publish.sh patch"
   },
   "repository": {
     "type": "git",
